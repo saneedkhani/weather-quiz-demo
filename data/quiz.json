@@ -1,0 +1,199 @@
+{
+  "app": {
+    "title": "Extreme Weather Safety Quiz",
+    "eyebrow": "Switzerland · Student edition",
+    "intro": "Floods, heatwaves and thunderstorms are becoming more frequent in Switzerland. Pick a scenario, answer three questions and learn what the official guidance says.",
+    "disclaimer": "Demo content written for this portfolio project, based on official Swiss guidance. In an emergency, always follow official warnings and instructions."
+  },
+  "ui": {
+    "howItWorks": ["Pick a scenario", "Answer 3 questions", "Learn from official guidance"],
+    "start": "Start",
+    "comingSoon": "Coming soon",
+    "questionsLabel": "questions",
+    "allScenarios": "All scenarios",
+    "questionOf": "Question {current} of {total}",
+    "correct": "Correct!",
+    "incorrect": "Not quite",
+    "correctAnswerIs": "The correct answer is:",
+    "officialGuidance": "Official guidance",
+    "next": "Next question",
+    "seeResults": "See my results",
+    "yourScore": "Your score",
+    "yourAnswer": "Your answer:",
+    "correctAnswer": "Correct answer:",
+    "restart": "Try again",
+    "chooseAnother": "Choose another scenario",
+    "jumpTo": "Or go straight to:",
+    "results": {
+      "perfect": "Excellent, you're weather-ready!",
+      "good": "Good job! Review the tips below to close the gaps.",
+      "low": "Worth a second look. The official tips below explain what to do."
+    }
+  },
+  "scenarios": [
+    {
+      "id": "flooding",
+      "title": "Flooding",
+      "icon": "flood",
+      "description": "Rising rivers, flooded streets and basements: what keeps you safe when the water comes?",
+      "questions": [
+        {
+          "situation": "Heavy rain has been falling for hours. A flood warning has been issued for your town and water is starting to collect in the street. Your car is parked in the building's underground car park.",
+          "question": "What should you do?",
+          "options": [
+            "Go down quickly and drive the car to higher ground",
+            "Stay out of the underground car park and the basement",
+            "Go to the basement to switch off the electricity",
+            "Wait inside the car park until the rain stops"
+          ],
+          "correctIndex": 1,
+          "explanation": "Underground spaces can fill with water within minutes, and you can become trapped. When there is a danger of flooding, the official advice is clear: do not enter basements or underground car parks. Moving cars and valuables is something to do earlier, when a flood is first announced, not once the water is rising.",
+          "sources": [
+            { "label": "Natural Hazards Portal: General recommendations for floods", "url": "https://www.natural-hazards.ch/danger-levels/flood/advice.html" }
+          ]
+        },
+        {
+          "situation": "On your way to class by bike, the road ahead is covered with fast-flowing water. It looks only ankle-deep.",
+          "question": "What do you do?",
+          "options": [
+            "Ride through quickly, it's shallow",
+            "Push the bike through carefully",
+            "Turn back and take another route",
+            "Follow the car in front of you through the water"
+          ],
+          "correctIndex": 2,
+          "explanation": "Moving water is stronger than it looks and can hide a damaged road surface, open drains or debris. Official guidance says not to drive or cycle on flooded roads and to keep away from rivers and lakes carrying floodwater, because their banks can collapse.",
+          "sources": [
+            { "label": "Natural Hazards Portal: General recommendations for floods", "url": "https://www.natural-hazards.ch/danger-levels/flood/advice.html" }
+          ]
+        },
+        {
+          "situation": "Authorities expect a flood in your neighbourhood tomorrow. You live in a ground-floor flat with a cellar.",
+          "question": "Which preparation makes the most sense today?",
+          "options": [
+            "Move valuables out of the cellar and get sandbags or sealing material ready",
+            "Do nothing until the water actually arrives",
+            "Open the cellar windows so the water can drain away",
+            "Store fuel and chemicals in the cellar so they're out of the way"
+          ],
+          "correctIndex": 0,
+          "explanation": "When a flood is announced, move mobile valuables (car, furniture) to a safe place, cut the power and gas in rooms at risk, and seal openings with prepared material without putting yourself in danger. Keep polluting or flammable substances out of areas that may flood, and check whether neighbours need help.",
+          "sources": [
+            { "label": "Natural Hazards Portal: General recommendations for floods", "url": "https://www.natural-hazards.ch/danger-levels/flood/advice.html" },
+            { "label": "Natural Hazards Portal: Flood danger levels", "url": "https://www.natural-hazards.ch/danger-levels/flood.html" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "heatwave",
+      "title": "Heatwaves",
+      "icon": "heat",
+      "description": "Hot days and tropical nights put your health at risk. Do you know how to stay cool and help others?",
+      "questions": [
+        {
+          "situation": "A heatwave is forecast for the whole week and you want to keep up your running training.",
+          "question": "When is the best time to run?",
+          "options": [
+            "At midday, so your body gets used to the heat",
+            "Early in the morning or late in the evening",
+            "Mid-afternoon, after lunch",
+            "Any time, as long as you drink afterwards"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Federal Office of Public Health (FOPH) advises avoiding strenuous activity during the hottest part of the day, from the midday sun (11 a.m. to 3 p.m.) to the high temperatures that follow (3 p.m. to 5 p.m.). Move training to early morning or late evening, and drink regularly: at least 1.5 litres a day.",
+          "sources": [
+            { "label": "FOPH: Protecting yourself and others in hot weather", "url": "https://www.bag.admin.ch/en/heat" }
+          ]
+        },
+        {
+          "situation": "Your student flat gets very hot during the heatwave and you have no air conditioning.",
+          "question": "What is the best way to keep it cool?",
+          "options": [
+            "Keep the windows wide open all day for a breeze",
+            "Close windows and shutters during the day, and air the flat at night and early in the morning",
+            "Leave your computer and TV on standby so they're ready",
+            "Keep the blinds open to let in natural light"
+          ],
+          "correctIndex": 1,
+          "explanation": "Keep the heat out during the day: close the windows and cover them with external shutters or blinds. Open the windows at night and early in the morning, when it's cooler outside than inside, and switch off devices you don't need.",
+          "sources": [
+            { "label": "FOPH: Protecting yourself and others in hot weather", "url": "https://www.bag.admin.ch/en/heat" },
+            { "label": "Natural Hazards Portal: General recommendations for heatwaves", "url": "https://www.natural-hazards.ch/danger-levels/heatwave/advice.html" }
+          ]
+        },
+        {
+          "situation": "On a hot afternoon you notice that your older neighbour, who lives alone, seems confused and dizzy.",
+          "question": "What should you do?",
+          "options": [
+            "Let them rest alone; it will pass",
+            "Offer them a strong coffee or an alcoholic drink",
+            "Cool them with damp towels, give them a drink, and call a doctor or 144 if they don't feel better soon",
+            "Take them for a walk outside for some fresh air"
+          ],
+          "correctIndex": 2,
+          "explanation": "Confusion and dizziness can be signs of heat-related illness. The FOPH advises cooling down with damp towels and drinking something with electrolytes, such as diluted apple juice. If the person doesn't feel better after a short time, call a doctor or 144 (ambulance). Older people who live alone are at higher risk, so check on them during heatwaves.",
+          "sources": [
+            { "label": "FOPH: Protecting yourself and others in hot weather", "url": "https://www.bag.admin.ch/en/heat" },
+            { "label": "Natural Hazards Portal: Heatwave danger levels", "url": "https://www.natural-hazards.ch/danger-levels/heatwave.html" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thunderstorms",
+      "title": "Severe thunderstorms",
+      "icon": "storm",
+      "description": "Lightning, hail and sudden gusts can arrive within minutes. Know what to do outdoors and on the lake.",
+      "questions": [
+        {
+          "situation": "You're hiking in the hills when you see a flash of lightning. You count 6 seconds until you hear the thunder.",
+          "question": "Roughly how far away is the storm?",
+          "options": [
+            "About 6 km",
+            "About 2 km",
+            "About 18 km",
+            "Too far away to worry about"
+          ],
+          "correctIndex": 1,
+          "explanation": "Divide the seconds between the lightning and the thunder by three to get the distance in kilometres: 6 ÷ 3 = about 2 km. That is very close, so look for shelter immediately.",
+          "sources": [
+            { "label": "Natural Hazards Portal: General recommendations for thunderstorms", "url": "https://www.natural-hazards.ch/danger-levels/thunderstorms/advice.html" }
+          ]
+        },
+        {
+          "situation": "The storm is right above you and there is no building nearby.",
+          "question": "Where are you safest?",
+          "options": [
+            "Under a large, isolated tree",
+            "On the ridge, so you can watch the storm",
+            "In a car, or else crouched low in open terrain",
+            "Lying flat on the ground"
+          ],
+          "correctIndex": 2,
+          "explanation": "Official advice is to seek shelter in a building or a car. In open terrain with lightning nearby, take a crouched position. Avoid isolated trees, summits and ridges, and also flooded roads, riverbeds and steep slopes.",
+          "sources": [
+            { "label": "Natural Hazards Portal: General recommendations for thunderstorms", "url": "https://www.natural-hazards.ch/danger-levels/thunderstorms/advice.html" },
+            { "label": "MeteoSwiss: Thunderstorm warnings", "url": "https://www.meteoswiss.admin.ch/weather/weather-and-climate-from-a-to-z/thunderstorms/thunderstorm-warnings.html" }
+          ]
+        },
+        {
+          "situation": "You're on a stand-up paddleboard on a Swiss lake. The orange warning lights on the shore start flashing about 90 times per minute.",
+          "question": "What does this mean?",
+          "options": [
+            "The lake is closed for a regatta",
+            "Storm warning: get off the water immediately",
+            "Strong-wind caution: it's fine to stay out a little longer",
+            "The swimming area is closing for the day"
+          ],
+          "correctIndex": 1,
+          "explanation": "Swiss lakes have a storm warning service run by MeteoSwiss. About 40 flashes per minute is a strong-wind warning (gusts of about 46–61 km/h): watch the weather closely. About 90 flashes per minute is a storm warning (gusts above about 61 km/h): take safety measures immediately and head for shore.",
+          "sources": [
+            { "label": "MeteoSwiss: Storm warning service for Swiss lakes (PDF, German)", "url": "https://www.meteoswiss.admin.ch/dam/jcr:0c635c98-e647-4575-a210-a4ef919671c3/Factsheet_Sturmwarndienst_DE.pdf" },
+            { "label": "MeteoSwiss: Hazards and warnings", "url": "https://www.meteoswiss.admin.ch/weather/hazards.html" }
+          ]
+        }
+      ]
+    }
+  ]
+}
