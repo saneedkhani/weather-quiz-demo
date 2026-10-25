@@ -18,4 +18,4 @@
 - **Responsive design and accessibility:** tested at phone (375 px) and desktop widths, in light and dark mode, and with keyboard-only navigation.
 - **Content accuracy:** each explanation was compared with the linked official page (Natural Hazards Portal, FOPH, MeteoSwiss), and every link was opened to confirm it works (checked 25 October 2026).
 
-The final responsibility for the code and content lies with the developer, Saneed Khan.
+The final responsibility for the code and content lies with the developer, Saneed Ullah.

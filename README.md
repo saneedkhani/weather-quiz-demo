@@ -95,5 +95,5 @@ The demo questions were written for this project based on official Swiss guidanc
 
 ## Copyright
 
-© 2026 Saneed Khan. All rights reserved.
+© 2026 Saneed Ullah. All rights reserved.
 This project is shared for viewing only. See [LICENSE](LICENSE).

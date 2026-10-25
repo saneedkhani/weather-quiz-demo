@@ -7,7 +7,7 @@
 | Item | Source | Licence |
 | --- | --- | --- |
 | Fonts | The visitor's system font (`system-ui` stack), so no font files are shipped | n/a |
-| Icons | Simple inline SVG icons drawn for this project in `js/app.js` and `index.html` | © 2026 Saneed Khan, see [LICENSE](LICENSE) |
+| Icons | Simple inline SVG icons drawn for this project in `js/app.js` and `index.html` | © 2026 Saneed Ullah, see [LICENSE](LICENSE) |
 | Images | None | n/a |
 
 ## Development tools (not shipped)
